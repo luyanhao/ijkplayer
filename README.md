@@ -134,6 +134,10 @@ sudo dpkg-reconfigure dash
 - If you'd like to share your config, pull request is welcome.
 
 ### Build Android
+
+指定ndk 版本
+export ANDROID_NDK=/media/lyhao/DATA1/Android/android-ndk-r10e-linux-x86_64/android-ndk-r10e
+
 ```
 git clone https://github.com/Bilibili/ijkplayer.git ijkplayer-android
 cd ijkplayer-android
